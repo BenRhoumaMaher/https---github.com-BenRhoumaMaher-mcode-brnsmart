@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=BioRhyme:wght@700&display=swap");
+
+body{  
+  font-family: "Times New Roman", Times, serif; 
+  margin-left: 50px; 
+}
+.container {
+  margin-left: -50px;
+  margin-top: 150px;
+}
+ .boxx {
+  display: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+img{
+  margin: 50px 0px  40px 0px;
+  width: 1500px;
+  height: 450px;
+}
+ 
+input[type=text] ,input[type=password], input[type="email"], input[type=number],input[type="tel"], button,.selcs{  
+  width: 80%; 
+  padding: 15px;  
+  margin: 5px 0px 0px 0px;    
+  border: none;
+  background-color: whitesmoke;  
+  border: 1px solid;
+  border-color: grey;
+  border-radius: 10px;
+  border: solid 3px transparent;
+}
+ textarea {
+  width: 90%; 
+  padding: 15px;  
+  margin: 5px 0px 0px 0px;    
+  border: none;
+  background-color: whitesmoke;  
+  border: 1px solid;
+  border-color: grey;
+  border-radius: 10px;
+  border: solid 3px transparent;
+ }
+ select {
+  width: 90%; 
+  padding: 15px;  
+  margin: 5px 0px 0px 0px;    
+  border: none;
+  background-color: whitesmoke;  
+  border: 1px solid;
+  border-color: grey;
+  border-radius: 10px;
+  border: solid 3px transparent;
+ }
+.in{
+  width: 90%;    
+  border: none;
+  background-color: whitesmoke;  
+  border: 1px solid;
+  border-color: grey;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border: solid 3px transparent;
+}
+.education {
+  margin-top:42px ;
+  width: 60px;
+  height: 60px;
+}
+sel: focus {
+ box-shadow: 0 0 10px #719ECE;
+}
+h2 {
+ margin: 10px 0px -20px 00px;
+ color: darkslategrey;
+
+ padding: 0px 0px 30px 0px;
+}
+.contains {
+  margin-top:150px ;
+  margin-left: 100px;
+}
+
+.distance {
+  margin-left: 50px;
+}
+.distances {
+  margin-left: 75px;
+}
+.coordonne{
+  padding-bottom: 40px;
+}
+.dis{
+  margin-left: 110px;
+}
+.label 
+{
+  margin-left: 10px;
+}
+.civilité{
+  margin-left: -12px;
+}
+input[type=text]:focus, input[type=password]:focus {    
+  outline: none; 
+  box-shadow: inset 0 0 0 1px blac, 0 0 3px 1px red; 
+}
+option {
+  color: darkslategrey;
+}  
+ 
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px; 
+  width: 1500px; 
+}  
+.registerbtns {  
+  background-color: #4CAF50;  
+  color: white;
+  border-radius: 10px;  
+  border: none;
+  width: 20%;  
+  opacity: 0.9;
+  margin-bottom: 40px;
+}   
+p{
+  font-size: 40px;
+}
+.boxx {
+  display: none;
+}
+.ss {
+  display: none;
+}
+.two-col {
+  overflow: hidden;
+}
+.two-col .col1,
+.two-col .col2 {
+  width: 49%;
+}
+.two-col .col1 {
+  float: left;
+}
+.two-col .col2 {
+  float: right;
+}
+.two-col label {
+  display: block;
+}
+/* Media Query for low resolution  Tablets, Ipads */
+        @media (max-width: 480px){
+          .registerbtns {
+          width: 300px;
+        }
+
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+        @media (min-width: 481px) and (max-width: 767px) {
+          .registerbtns {
+          width: 250px;
+        }
+
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+        @media (min-width: 768px) and (max-width: 1024px){
+        .registerbtns {
+          width: 250px;
+        }
+
+}
